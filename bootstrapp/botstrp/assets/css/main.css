@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  font-weight: 500px;
+
+}
+
+header .collapseDiv {
+  justify-content: flex-end;
+  font-size: 15px;
+
+}
+
+nav {
+  width: 85%;
+  margin: auto;
+  
+}
+
+span {
+  display: none;
+}
+
+#class{
+  width: 100%;
+  height: 650px;
+  background-color:#D4EAF5;
+}
+
+
+main{
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    background-color: #1C5B7B;
+    
+  }
+
+  p {
+    display: block;
+    font-size: 20px;
+  }
+  .nav-item {
+    font-weight: 30px;
+  }
+  
+  .myDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.img img{
+width: 100%;
+height: 650px;
+}
+.item{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+#btn{
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  border: 0;
+  
+}
+  
+.container{
+  font-size: 15px;
+  height: 250px;
+  padding: 40px;
+  margin-top: 10px;
+
+}
+
+#item{
+  background-color: #F5EBEB;
+}
+#item1{
+background-color: #D4EAF5;
+}
+#item2{
+  background-color: #F5EFD8;
+}
+#item3{
+  background-color: #F4E6D8;
+}
+.container h1{
+  font-size: 25px;
+}
+
+.img1{
+
+
+}
